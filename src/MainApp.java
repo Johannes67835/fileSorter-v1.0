@@ -1,5 +1,3 @@
-package uk.org.nomoon.fileSorter;
-
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
@@ -44,7 +42,7 @@ public class MainApp extends Application {
 
         stage.setTitle("File Organizer");
         Scene scene = new Scene(root, 550, 150);
-        scene.getStylesheets().add(getClass().getResource("/uk/org/nomoon/fileSorter/style.css").toExternalForm());
+        scene.getStylesheets().add(getClass().getResource("/style.css").toExternalForm());
         stage.setScene(scene);
         stage.show();
     }

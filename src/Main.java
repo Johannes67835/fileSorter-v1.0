@@ -1,5 +1,3 @@
-package uk.org.nomoon.fileSorter;
-
 import java.util.ResourceBundle;
 import java.util.Scanner;
 
