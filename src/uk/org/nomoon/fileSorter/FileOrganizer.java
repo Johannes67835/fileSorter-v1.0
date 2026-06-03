@@ -1,3 +1,4 @@
+package uk.org.nomoon.fileSorter;
 
 import java.io.IOException;
 import java.nio.file.*;
@@ -7,7 +8,7 @@ import java.util.Map;
 import java.util.ResourceBundle;
 
 public class FileOrganizer {
-    static ResourceBundle bndl = ResourceBundle.getBundle("msg");
+    private static ResourceBundle bndl = ResourceBundle.getBundle("msg");
 
     private static final Map<String, String> EXTENSION_MAP = Map.ofEntries(
 
