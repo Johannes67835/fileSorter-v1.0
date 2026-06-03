@@ -1,57 +1,57 @@
 # 📁 File Organizer
 
-Ein Java-Desktop-Programm, das Dateien in einem Ordner automatisch anhand ihrer Dateiendung in Unterordner sortiert.
+A Java desktop application that automatically sorts files in a folder into subfolders based on their file extension.
 
 ---
 
 ## Features
 
-- Automatisches Sortieren nach Dateityp (Bilder, Dokumente, Videos, Musik, Archive, Code, ...)
-- Dunkles UI im modernen Stil mit JavaFX
-- Ordnerauswahl per Browse-Dialog
-- Automatische Namenskonflikt-Auflösung (`datei_1.pdf`, `datei_2.pdf`, ...)
-- Echtzeit-Statistik: verschobene Dateien, Sonstiges, Fehler
-- Mehrsprachigkeit vorbereitet (ResourceBundle)
+- Automatic sorting by file type (images, documents, videos, music, archives, code, ...)
+- Dark UI with modern JavaFX styling
+- Folder selection via browse dialog
+- Automatic conflict resolution (`file_1.pdf`, `file_2.pdf`, ...)
+- Real-time statistics: moved files, unknown types, errors
+- Internationalization support via ResourceBundle
 
 ---
 
-## Voraussetzungen
+## Requirements
 
 | Tool | Version |
 |------|---------|
 | JDK | 21 LTS |
 | JavaFX SDK | 21.0.11 |
-| IntelliJ IDEA | beliebig |
+| IntelliJ IDEA | any |
 
 ---
 
 ## Setup
 
-### 1. Repository klonen
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/dein-name/file-organizer.git
+git clone https://github.com/your-name/file-organizer.git
 cd file-organizer
 ```
 
-### 2. Projekt in IntelliJ öffnen
+### 2. Open in IntelliJ
 
-`File → Open` → den geklonten Ordner auswählen.
+`File → Open` → select the cloned folder.
 
-### 3. JDK setzen
+### 3. Set the JDK
 
-`File → Project Structure → Project SDK` → **JDK 21** auswählen.
+`File → Project Structure → Project SDK` → select **JDK 21**.
 
-### 4. JavaFX SDK einbinden
+### 4. Add the JavaFX SDK
 
-JavaFX SDK herunterladen: https://gluonhq.com/products/javafx/
-→ Version 21, passendes OS, ZIP entpacken (z. B. nach `C:\javafx-sdk-21`)
+Download the JavaFX SDK: https://gluonhq.com/products/javafx/
+→ Version 21, matching your OS, extract the ZIP (e.g. to `C:\javafx-sdk-21`)
 
-Dann in IntelliJ:
+Then in IntelliJ:
 
-`File → Project Structure → Libraries → + → Java` → `javafx-sdk-21\lib` auswählen → OK
+`File → Project Structure → Libraries → + → Java` → select `javafx-sdk-21\lib` → OK
 
-### 5. VM-Optionen setzen
+### 5. Set VM options
 
 `Run → Edit Configurations → Modify options → Add VM options`:
 
@@ -59,60 +59,60 @@ Dann in IntelliJ:
 --module-path "C:\javafx-sdk-21\lib" --add-modules javafx.controls
 ```
 
-Pfad entsprechend anpassen.
+Adjust the path accordingly.
 
-### 6. Starten
+### 6. Run
 
-Run-Konfiguration `MainApp` auswählen und ▶ drücken.
+Select the `MainApp` run configuration and press ▶.
 
 ---
 
-## Projektstruktur
+## Project structure
 
 ```
 file-organizer/
 ├── src/
 │   └── main/
 │       ├── java/com/fileorganizer/
-│       │   ├── Main.java              # Konsolen-Einstiegspunkt (Phase 1)
-│       │   ├── MainApp.java           # JavaFX GUI (Phase 2)
-│       │   ├── FileOrganizer.java     # Kernlogik (EVA-Prinzip)
-│       │   └── OrganizeResult.java    # Ergebnis-Record
+│       │   ├── Main.java              # Console entry point (phase 1)
+│       │   ├── MainApp.java           # JavaFX GUI (phase 2)
+│       │   ├── FileOrganizer.java     # Core logic (EVA principle)
+│       │   └── OrganizeResult.java    # Result record
 │       └── resources/
-│           ├── style.css              # Dark-Theme Styles
-│           ├── msg.properties         # Texte (Standard/Englisch)
-│           └── msg_de.properties      # Texte Deutsch
+│           ├── style.css              # Dark theme styles
+│           ├── msg.properties         # Texts (default/English)
+│           └── msg_de.properties      # Texts German
 ├── FileOrganizer.iml
 └── README.md
 ```
 
 ---
 
-## Unterstützte Dateitypen
+## Supported file types
 
-| Endungen | Zielordner |
-|----------|------------|
-| `.jpg` `.jpeg` `.png` `.gif` `.bmp` `.svg` `.webp` | Bilder |
-| `.pdf` `.doc` `.docx` `.txt` `.odt` `.rtf` `.md` | Dokumente |
-| `.xls` `.xlsx` `.csv` `.ods` | Tabellen |
-| `.ppt` `.pptx` `.odp` | Präsentationen |
+| Extensions | Target folder |
+|------------|---------------|
+| `.jpg` `.jpeg` `.png` `.gif` `.bmp` `.svg` `.webp` | Images |
+| `.pdf` `.doc` `.docx` `.txt` `.odt` `.rtf` `.md` | Documents |
+| `.xls` `.xlsx` `.csv` `.ods` | Spreadsheets |
+| `.ppt` `.pptx` `.odp` | Presentations |
 | `.mp4` `.mkv` `.avi` `.mov` `.wmv` `.flv` | Videos |
-| `.mp3` `.wav` `.flac` `.aac` `.ogg` `.m4a` | Musik |
-| `.zip` `.rar` `.7z` `.tar` `.gz` | Archive |
+| `.mp3` `.wav` `.flac` `.aac` `.ogg` `.m4a` | Music |
+| `.zip` `.rar` `.7z` `.tar` `.gz` | Archives |
 | `.java` `.py` `.js` `.html` `.css` `.json` `.sql` | Code |
-| `.exe` `.msi` `.jar` `.bat` `.sh` | Programme |
-| (alles andere) | Sonstiges |
+| `.exe` `.msi` `.jar` `.bat` `.sh` | Programs |
+| (everything else) | Other |
 
 ---
 
-## Verwendete Technologien
+## Technologies
 
-- **Java 21** mit NIO.2 API (`java.nio.file`)
-- **JavaFX 21** für die GUI
-- **ResourceBundle** für Mehrsprachigkeit
+- **Java 21** with NIO.2 API (`java.nio.file`)
+- **JavaFX 21** for the GUI
+- **ResourceBundle** for internationalization
 
 ---
 
-## Lizenz
+## License
 
-MIT License — frei verwendbar für Schul- und Privatprojekte.
+MIT License — free to use for school and personal projects.
