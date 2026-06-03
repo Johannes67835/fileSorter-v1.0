@@ -10,6 +10,8 @@ A Java desktop application that automatically sorts files in a folder into subfo
 - GitHub: [@Johannes67835](https://github.com/johannes67835)
 - Email: contact@nomoon.org.uk
 
+---
+
 ## Features
 
 - Automatic sorting by file type (images, documents, videos, music, archives, code, ...)
