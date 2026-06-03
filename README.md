@@ -67,27 +67,6 @@ Select the `MainApp` run configuration and press ▶.
 
 ---
 
-## Project structure
-
-```
-file-organizer/
-├── src/
-│   └── main/
-│       ├── java/com/fileorganizer/
-│       │   ├── Main.java              # Console entry point (phase 1)
-│       │   ├── MainApp.java           # JavaFX GUI (phase 2)
-│       │   ├── FileOrganizer.java     # Core logic (EVA principle)
-│       │   └── OrganizeResult.java    # Result record
-│       └── resources/
-│           ├── style.css              # Dark theme styles
-│           ├── msg.properties         # Texts (default/English)
-│           └── msg_de.properties      # Texts German
-├── FileOrganizer.iml
-└── README.md
-```
-
----
-
 ## Supported file types
 
 | Extensions | Target folder |
