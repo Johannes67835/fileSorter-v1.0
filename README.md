@@ -4,6 +4,10 @@ A Java desktop application that automatically sorts files in a folder into subfo
 
 ---
 
+## ⚠️ Disclaimer
+
+Use at your own risk. This application moves and reorganizes files on your local system. While it includes built-in conflict resolution, the authors are not responsible for any accidental data loss, misplaced files, or system errors. Always ensure you have a backup of important data before running the organizer on critical folders.
+
 ## Contact
 
 **nomoon - Johannes**
@@ -102,4 +106,8 @@ Select the `MainApp` run configuration and press ▶.
 
 ## License
 
-MIT License — free to use for school and personal projects.
+Open Source - free to use
+
+---
+
+##
