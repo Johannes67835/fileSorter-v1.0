@@ -15,8 +15,6 @@ public class MainApp extends Application {
 
     @Override
     public void start(Stage stage) {
-        Locale.setDefault(Locale.of("ro", "RO"));
-
         ResourceBundle bndle = ResourceBundle.getBundle("msg");
 
         // Hide the native OS frame completely
