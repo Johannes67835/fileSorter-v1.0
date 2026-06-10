@@ -39,6 +39,24 @@ Use at your own risk. This application moves and reorganizes files on your local
 
 ---
 
+## Languages
+
+English
+German
+Spanish
+French
+Hindi
+Italian
+Japanese
+Dutch
+Polish
+Portuguese
+Romanian
+Russian
+Slovenian
+Ukrainian
+Simplified Chinese
+
 ## Setup
 
 ### 1. Clone the repository
