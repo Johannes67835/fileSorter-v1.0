@@ -1,0 +1,112 @@
+/* Base container background */
+.root {
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* Target your main wrapper layout container */
+.main-root {
+    -fx-background-color: #1e1e24;  /* Dark charcoal app background */
+    -fx-border-color: #2a2a34;
+    -fx-border-width: 1px;         /* Sleek, thin window outline boundary */
+}
+
+/* Custom Title Bar Container */
+.custom-title-bar {
+    -fx-background-color: #16161a; /* Darker accent tone for top-bar */
+    -fx-padding: 0px 0px 0px 14px;
+    -fx-border-color: #2a2a34;
+    -fx-border-width: 0 0 1px 0;   /* Bottom divider line */
+    -fx-min-height: 32px;
+    -fx-max-height: 32px;
+}
+
+/* App Title text */
+.title-text {
+    -fx-text-fill: #a0a0a8;
+    -fx-font-size: 12px;
+}
+
+/* Window Minimize/Close action buttons */
+.window-control-btn {
+    /* We use !important to override JavaFX default gray button skins */
+    -fx-background-color: transparent !important;
+    -fx-background-insets: 0 !important;
+    -fx-background-radius: 0 !important;
+
+    -fx-text-fill: #a0a0a8;
+    -fx-font-size: 11px;
+    -fx-padding: 0px 16px;
+    -fx-max-height: infinity;
+}
+
+/* Window Control Hover States */
+.window-control-btn:hover {
+    -fx-background-color: #2e2e38 !important;
+    -fx-text-fill: #ffffff;
+}
+
+/* Standard red close button hover effect */
+.window-control-btn.close-btn:hover {
+    -fx-background-color: #e81123 !important;
+    -fx-text-fill: #ffffff;
+}
+
+/* Padding adjustment for your inputs inside the main window */
+.content-body {
+    -fx-padding: 20px;
+}
+
+/* Style for Labels / Status Text */
+.label {
+    -fx-text-fill: #e0e0e6;
+    -fx-font-size: 13px;
+}
+
+/* Text Field (The path input) */
+.text-field {
+    -fx-background-color: #2a2a32;
+    -fx-background-radius: 6px;
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: #808080;
+    -fx-highlight-fill: #4a90e2;
+    -fx-padding: 8px 12px;
+    -fx-border-color: #3f3f46;
+    -fx-border-width: 1px;
+    -fx-border-radius: 6px;
+}
+
+.text-field:focused {
+    -fx-border-color: #4a90e2;
+    -fx-background-color: #2d2d38;
+}
+
+/* Modern Flat Utility Buttons (Browse...) */
+.button {
+    -fx-background-color: #3a3a45;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 6px;
+    -fx-padding: 8px 16px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #4e4e5a;
+}
+
+.button:armed {
+    -fx-background-color: #2d2d35;
+}
+
+/* Blue Primary Action Button (Sort) */
+.button.primary-btn {
+    -fx-background-color: #0078d4;
+}
+
+.button.primary-btn:hover {
+    -fx-background-color: #106ebe;
+}
+
+.button.primary-btn:armed {
+    -fx-background-color: #005a9e;
+}
