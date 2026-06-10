@@ -5,6 +5,7 @@ import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.stage.*;
 
+import java.util.Locale;
 import java.util.ResourceBundle;
 
 public class MainApp extends Application {
@@ -14,6 +15,8 @@ public class MainApp extends Application {
 
     @Override
     public void start(Stage stage) {
+        Locale.setDefault(Locale.of("ro", "RO"));
+
         ResourceBundle bndle = ResourceBundle.getBundle("msg");
 
         // Hide the native OS frame completely
@@ -25,7 +28,7 @@ public class MainApp extends Application {
         titleBar.setAlignment(Pos.CENTER_LEFT);
         titleBar.setFillHeight(true);
 
-        Label titleLabel = new Label("File Organizer");
+        Label titleLabel = new Label(bndle.getString("title"));
         titleLabel.getStyleClass().add("title-text");
 
         Pane spacer = new Pane();
