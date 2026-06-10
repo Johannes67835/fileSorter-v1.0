@@ -57,6 +57,8 @@ Use at your own risk. This application moves and reorganizes files on your local
 - Ukrainian
 - Simplified Chinese
 
+---
+
 ## Setup
 
 ### 1. Clone the repository
