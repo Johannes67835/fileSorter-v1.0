@@ -41,21 +41,14 @@ Use at your own risk. This application moves and reorganizes files on your local
 
 ## Languages
 
-- English
-- German
-- Spanish
-- French
-- Hindi
-- Italian
-- Japanese
-- Dutch
-- Polish
-- Portuguese
-- Romanian
-- Russian
-- Slovenian
-- Ukrainian
-- Simplified Chinese
+
+| Region        | Languages                                                                              |
+|---------------|----------------------------------------------------------------------------------------|
+| International | English                                                                                |
+| Europe        | German, Spanish, French, Italian Dutch, Polish, Romanian, Russian, Slovenian, Ukrainian |
+| Asia          | Hindi, Japanese, Simplified Chinese                                                    |
+| Americas      | Portuguese (Brazil)                                                                    | 
+
 
 ---
 
