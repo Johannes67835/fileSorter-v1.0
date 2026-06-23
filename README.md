@@ -31,11 +31,15 @@ Use at your own risk. This application moves and reorganizes files on your local
 
 ## Requirements
 
-| Tool | Version |
-|------|---------|
-| JDK | 21 LTS |
-| JavaFX SDK | 21.0.11 |
-| IntelliJ IDEA | any |
+| Dependency           | Version | 
+|----------------------|---------| 
+| Windows (for .exe)   | 10, 11  | 
+| other OS's in future |         |
+| for other OS's       |         |
+| JDK                  | 21 LTS  |
+| JAvaFX SDK           | 21.0.11 |
+| IntelliJ IDEA        | any     |
+
 
 ---
 
