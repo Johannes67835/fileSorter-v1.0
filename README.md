@@ -33,8 +33,7 @@ Use at your own risk. This application moves and reorganizes files on your local
 
 | Dependency           | Version | 
 |----------------------|---------| 
-| Windows (for .exe)   | 10, 11  | 
-| other OS's in future |         |
+| Windows (for .exe)   | 10, 11  |
 | for other OS's       |         |
 | JDK                  | 21 LTS  |
 | JAvaFX SDK           | 21.0.11 |
