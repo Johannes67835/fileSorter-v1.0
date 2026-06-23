@@ -1,7 +1,7 @@
 # 📁 File Organizer
 
 A Java desktop application that automatically sorts files in a folder into subfolders based on their file extension.
-
+![File Organizer UI](Other/img.png)
 ---
 
 ## ⚠️ Disclaimer
@@ -31,13 +31,13 @@ Use at your own risk. This application moves and reorganizes files on your local
 
 ## Requirements
 
-| Dependency           | Version | 
-|----------------------|---------| 
-| Windows (for .exe)   | 10, 11  |
-| for other OS's       |         |
-| JDK                  | 21 LTS  |
-| JAvaFX SDK           | 21.0.11 |
-| IntelliJ IDEA        | any     |
+| Dependency         | Version | 
+|--------------------|---------| 
+| Windows (for .exe) | 10, 11  |
+| for other OS's     |         |
+| JDK                | 21 LTS  |
+| JavaFX SDK         | 21.0.11 |
+| IntelliJ IDEA      | any     |
 
 
 ---
@@ -61,6 +61,14 @@ Use at your own risk. This application moves and reorganizes files on your local
 2. Launch it
 3. Press "yes" on the Administrator prompt
 4. Follow the instructions given by the Installer
+
+---
+
+## Usage
+
+1. Launch the application from your desktop or start menu.
+2. Click "Browse" to select the target directory you want to clean up.
+3. Click "Sort" and watch your files move into sorted folders instantly.
 
 ---
 
