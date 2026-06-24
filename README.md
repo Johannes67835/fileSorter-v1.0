@@ -46,12 +46,12 @@ Use at your own risk. This application moves and reorganizes files on your local
 ## Languages
 
 
-| Region        | Languages                                                                              |
-|---------------|----------------------------------------------------------------------------------------|
-| International | English                                                                                |
-| Europe        | German, Spanish, French, Italian Dutch, Polish, Romanian, Russian, Slovenian, Ukrainian |
-| Asia          | Hindi, Japanese, Simplified Chinese                                                    |
-| Americas      | Portuguese (Brazil)                                                                    | 
+| Region        | Languages                                                                                |
+|---------------|------------------------------------------------------------------------------------------|
+| International | English                                                                                  |
+| Europe        | German, Dutch, Spanish, French, Italian, Polish, Romanian, Russian, Slovenian, Ukrainian |
+| Asia          | Hindi, Japanese, Simplified Chinese                                                      |
+| Americas      | Portuguese (Brazil)                                                                      | 
 
 
 ---
