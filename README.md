@@ -1,7 +1,7 @@
 # 📁 File Organizer
 
 A Java desktop application that automatically sorts files in a folder into subfolders based on their file extension.
-![File Organizer UI](path/to/screenshot.png)
+![File Organizer UI](Other/img.png)
 ---
 
 ## ⚠️ Disclaimer
@@ -103,4 +103,4 @@ Open Source - free to use
 
 ---
 
-**readme partly enhanced with ai
+_**readme partly enhanced with ai_
