@@ -58,7 +58,7 @@ Use at your own risk. This application moves and reorganizes files on your local
 
 ## Setup
 
-1. Download <a href="https://download.nomoon.org.uk/FileSorter-v1.0Setup.exe">the installer</a>
+1. Download the <a href="https://download.nomoon.org.uk/FileSorter-v1.0Setup.exe">installer</a>
 2. Launch it
 3. Press "yes" on the Administrator prompt
 4. Follow the instructions given by the Installer
